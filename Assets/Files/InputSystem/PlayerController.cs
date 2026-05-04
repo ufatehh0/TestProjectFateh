@@ -12,7 +12,13 @@ public class PlayerController : MonoBehaviour
         moveInput = value.Get<Vector2>();
     }
 
-    
+
+    public void OnTest()
+    {
+        Debug.Log("Test");
+
+    }
+
     public void OnFire()
     {
         Debug.Log("Fire");
